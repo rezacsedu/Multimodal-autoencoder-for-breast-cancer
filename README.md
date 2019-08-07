@@ -1,5 +1,5 @@
 ## Multimodal Autoencoders for Cancer Genomics
-Implementation of our paper titled "Prognostically Relevant Subtypes and Survival Prediction for Breast Cancer with Multimodal Autoencoders" submitted to IEEE Access journal, June 2019.
+Implementation of our paper titled "Prognostically Relevant Subtypes and Survival Prediction for Breast Cancer Based on Multimodal Genomics Data" submitted to IEEE Access journal, August 2019.
 
 In this implementation, Multimodal Autoencoders(MAE) is used to predict the clinical status of breast cancer patients based on their genomics data. This MAE model is trained with breast cancer genomics data from The Cancer Genome Atlas Breast Invasive Carcinoma (TCGA-BRCA). 
 
@@ -9,11 +9,12 @@ In this implementation, Multimodal Autoencoders(MAE) is used to predict the clin
 
 ### Requirements
 * Python 3
-* TensorFlow and/or Theano.
+* TensorFlow
+* Keras. 
 
 ### Download and create the dataset
 * Open the terminal
-* Clone the repo using `git clone https://github.com/rezacsedu/Multimodal-Deep-Belief-Net-Breast-Cancer.git`
+* Clone the repo using `git clone https://github.com/rezacsedu/MultimodalAE-BreastCancer.git`
 * Run the dataset creation program `python3 main_download.py -d DATASET_IDX`.
 
 | DATASET_IDX |                      Data Types                      | Space Requirements (GB) |
