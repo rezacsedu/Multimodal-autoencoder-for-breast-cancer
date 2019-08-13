@@ -1,5 +1,5 @@
 ## Multimodal autoencoders for subtypes and survival prediction of breast cancer
-Implementation of our paper titled "Prognostically Relevant Subtypes and Survival Prediction for Breast Cancer Based on Multimodal Genomics Data" submitted to IEEE Access journal, August 2019. In this implementation, Multimodal Autoencoders(MAE) is used to predict the clinical status of breast cancer patients based on their genomics data. This MAE model is trained with breast cancer genomics data from The Cancer Genome Atlas(TCGA). 
+Implementation of our paper titled "Prognostically Relevant Subtypes and Survival Prediction for Breast Cancer Based on Multimodal Genomics Data" submitted to IEEE Access journal, August 2019. In this implementation, a multimodal autoencoders(MAE) is used to predict different clinical status of breast cancer patients based on multiplatformic genomics data. The MAE is trained with genomics data such as DNA methylation, gene expression, miRNA expressionfrom, and clinical outcomes from The Cancer Genome Atlas(TCGA). 
 
 ### Predicted clinical status
 1. Breast cancer subtypes which is determined by the estrogen receptor (ER), progesterone receptor (PGR), and HER2/neu status
